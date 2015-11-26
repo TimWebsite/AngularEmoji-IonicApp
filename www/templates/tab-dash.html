@@ -1,0 +1,25 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">Recent Updates</div>
+      <div class="item item-body">
+        <div>
+          There is a fire in <b>sector 3</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="list card">
+      <div class="item item-divider">Emoji</div>
+      <div class="item item-body">
+          <div emoji-form emoji-message="emojiMessage">
+              <textarea id="messageInput" ng-model="emojiMessage.messagetext" placeholder="emoji "></textarea>
+
+              <button id="emojibtn">
+                  <i class="icon icon-emoji"></i>
+              </button>
+          </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
